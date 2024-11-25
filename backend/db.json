@@ -1,0 +1,93 @@
+{
+  "destinations": [
+    {
+      "name": "Mount Everest",
+      "description": "Climb the highest mountain in the world.",
+      "difficulty": "hard",
+      "id": "aruf"
+    },
+    {
+      "id": "tref",
+      "name": "Great Barrier Reef",
+      "description": "Dive into the world's largest coral reef system.",
+      "difficulty": "medium",
+      "isFavorite": false
+    },
+    {
+      "id": "rrpg",
+      "name": "Sahara Desert",
+      "description": "Experience the vastness of the largest hot desert.",
+      "difficulty": "medium",
+      "isFavorite": false
+    },
+    {
+      "id": "auor",
+      "name": "Amazon Rainforest",
+      "description": "Explore the biodiversity of the largest rainforest.",
+      "difficulty": "medium",
+      "isFavorite": false
+    },
+    {
+      "id": "guth",
+      "name": "Antarctica Expedition",
+      "description": "Venture into the coldest continent on Earth.",
+      "difficulty": "hard",
+      "isFavorite": false
+    },
+    {
+      "id": "itpq",
+      "name": "Machu Picchu",
+      "description": "Visit the ancient Incan city in the Andes Mountains.",
+      "difficulty": "easy",
+      "isFavorite": false
+    },
+    {
+      "id": "wtpj",
+      "name": "Grand Canyon",
+      "description": "Hike through the iconic canyon in Arizona.",
+      "difficulty": "medium",
+      "isFavorite": false
+    },
+    {
+      "id": "mgko",
+      "name": "Great Wall of China",
+      "description": "Walk along the historic wall stretching across China.",
+      "difficulty": "easy",
+      "isFavorite": true
+    },
+    {
+      "name": "Alaska",
+      "description": "Lindisimo",
+      "difficulty": "medium",
+      "id": "jgfg"
+    },
+    {
+      "id": "5298",
+      "name": "Nuevo",
+      "description": "Feo",
+      "difficulty": "Re hard",
+      "isfavorite": "True"
+    },
+    {
+      "name": "Lugar 100",
+      "description": "Recomiendo",
+      "difficulty": "medium",
+      "isfavorite": "Esto también, no me limita",
+      "id": "1f85"
+    },
+    {
+      "name": "El chuy",
+      "description": "Bueno para comprar trakinas",
+      "difficulty": "medium",
+      "isfavorite": "true",
+      "id": "2170"
+    },
+    {
+      "id": "97df",
+      "name": "Nuevo destino",
+      "description": "Djdjdhs",
+      "difficulty": "hard",
+      "isfavorite": "False"
+    }
+  ]
+}
