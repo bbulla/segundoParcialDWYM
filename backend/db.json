@@ -62,11 +62,11 @@
       "id": "jgfg"
     },
     {
-      "id": "5298",
       "name": "Nuevo",
       "description": "Feo",
-      "difficulty": "Re hard",
-      "isfavorite": "True"
+      "difficulty": "hard",
+      "isfavorite": "True",
+      "id": "5298"
     },
     {
       "name": "Lugar 100",

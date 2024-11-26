@@ -39,6 +39,10 @@ export default function DestinationListScreen() {
                             navigation.navigate('Detalles', { destination: item.id })
                         }>
                         <View style={styles.destinationContainer}>
+                            {item.difficulty === 'hard' && <Text style={styles.hardContainer}>{item.difficulty}</Text>}
+                            {item.difficulty === 'medium' && <Text style={styles.mediumContainer}>{item.difficulty}</Text>}
+                            {item.difficulty === 'easy' && <Text style={styles.easyContainer}>{item.difficulty}</Text>}
+
                             <Text style={styles.destinationName}>{item.name}</Text>
                         </View>
                     </TouchableOpacity>
@@ -59,10 +63,36 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     destinationContainer: {
-        backgroundColor: '#781cff',
+        backgroundColor: '#889cff',
         borderRadius: 10,
         marginBottom: 15,
         paddingVertical: 10,
         paddingHorizontal: 10,
     },
+    hardContainer: {
+        backgroundColor: 'purple',
+        color: 'white',
+        borderRadius: 15,
+        width: 100,
+        textAlign: 'center',
+        alignSelf: 'center',
+        marginBottom: 5
+    },
+    mediumContainer: {
+        backgroundColor: 'yellow',
+        borderRadius: 15,
+        width: 100,
+        textAlign: 'center',
+        alignSelf: 'center',
+        marginBottom: 5
+    },
+    easyContainer: {
+        backgroundColor: 'green',
+        color: 'white',
+        borderRadius: 15,
+        width: 100,
+        textAlign: 'center',
+        alignSelf: 'center',
+        marginBottom: 5
+    }
 })
